@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c3d97e54db1132000dbcddd0cf96193d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_94722_marketing_attendee">
+    <x_94722_marketing_attendee action="INSERT_OR_UPDATE">
+        <email>dvargas@dvarg.varg</email>
+        <first_name>Dan</first_name>
+        <last_name>Vargas</last_name>
+        <marketing_event display_value="Sydney LUG">e3756e8cdb5132000dbcddd0cf961991</marketing_event>
+        <phone>6666666666</phone>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-28 17:32:11</sys_created_on>
+        <sys_id>c3d97e54db1132000dbcddd0cf96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-28 17:32:11</sys_updated_on>
+        <u_sales_prospect>false</u_sales_prospect>
+    </x_94722_marketing_attendee>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 20:56:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>47fefd17db1d72000dbcddd0cf9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dvargas@dvarg.varg</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_94722_marketing">47c86d00db1132000dbcddd0cf96196e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">47c86d00db1132000dbcddd0cf96196e</sys_scope>
+        <sys_update_name>sys_metadata_link_47fefd17db1d72000dbcddd0cf9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 20:56:14</sys_updated_on>
+        <tablename>x_94722_marketing_attendee</tablename>
+    </sys_metadata_link>
+</record_update>

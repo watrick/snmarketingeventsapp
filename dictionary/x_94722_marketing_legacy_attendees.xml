@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Legacy Attendees" max_length="40" name="x_94722_marketing_legacy_attendees" type="collection">
+        <element attributes="import_attribute_name=mark.twain@sfc.com,edge_encryption_enabled=true" label="mark.twain@sfc.com" max_length="40" name="u_mark_twain_sfc_com" type="string"/>
+        <element attributes="import_attribute_name=Samuel Clemens,edge_encryption_enabled=true" label="Samuel Clemens" max_length="40" name="u_samuel_clemens" type="string"/>
+        <element attributes="import_attribute_name=San Jose LUG,edge_encryption_enabled=true" label="San Jose LUG" max_length="40" name="u_san_jose_lug" type="string"/>
+        <element attributes="import_attribute_name=SF Chronicle,edge_encryption_enabled=true" label="SF Chronicle" max_length="40" name="u_sf_chronicle" type="string"/>
+    </element>
+</database>

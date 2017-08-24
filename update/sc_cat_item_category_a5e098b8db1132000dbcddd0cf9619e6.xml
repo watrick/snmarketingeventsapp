@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request Marketing Event">315094b8db1132000dbcddd0cf96197d</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-01 18:30:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a5e098b8db1132000dbcddd0cf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Request Marketing Event</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_94722_marketing">47c86d00db1132000dbcddd0cf96196e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">47c86d00db1132000dbcddd0cf96196e</sys_scope>
+        <sys_update_name>sc_cat_item_category_a5e098b8db1132000dbcddd0cf9619e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-01 18:30:28</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Equipment Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Equipment Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">5064c1a4db0132000dbcddd0cf9619e4</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-27 17:11:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c39b2944db1132000dbcddd0cf96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment Request</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_94722_marketing">47c86d00db1132000dbcddd0cf96196e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">47c86d00db1132000dbcddd0cf96196e</sys_scope>
+        <sys_update_name>sys_wizard_answer_c39b2944db1132000dbcddd0cf96193f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-27 17:11:20</sys_updated_on>
+        <table/>
+        <target_url>x_94722_marketing_equipment_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

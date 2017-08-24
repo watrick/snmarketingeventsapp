@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>33ec06c0db5132000dbcddd0cf9619f6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_94722_marketing_marketing_event">
+    <x_94722_marketing_marketing_event action="INSERT_OR_UPDATE">
+        <budget>6000</budget>
+        <budget_remaining>4300</budget_remaining>
+        <city>London</city>
+        <end_date>2017-03-01</end_date>
+        <event_coordinator display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</event_coordinator>
+        <event_cost>1700</event_cost>
+        <name>London LUG</name>
+        <number_of_attendees_expected>10</number_of_attendees_expected>
+        <number_of_attendees_registered>2</number_of_attendees_registered>
+        <sponsor>Platinum Partners</sponsor>
+        <start_date>2017-02-28</start_date>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-27 19:37:05</sys_created_on>
+        <sys_id>33ec06c0db5132000dbcddd0cf9619f6</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-03-08 22:42:00</sys_updated_on>
+    </x_94722_marketing_marketing_event>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 20:55:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>58debd13db1d72000dbcddd0cf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>London LUG</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_94722_marketing">47c86d00db1132000dbcddd0cf96196e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">47c86d00db1132000dbcddd0cf96196e</sys_scope>
+        <sys_update_name>sys_metadata_link_58debd13db1d72000dbcddd0cf961900</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 20:55:30</sys_updated_on>
+        <tablename>x_94722_marketing_marketing_event</tablename>
+    </sys_metadata_link>
+</record_update>

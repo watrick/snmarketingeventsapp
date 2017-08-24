@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+"name":"${name}", &#13;
+"company":"${company}", &#13;
+"email":"${email}", &#13;
+"phone":"${phone}",&#13;
+"region":"${region}"&#13;
+}</content>
+        <function_name>Default POST</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Synch Sales Prospects [ Default POST ]</qualified_name>
+        <rest_endpoint/>
+        <rest_message display_value="Synch Sales Prospects">b390c403db9172000dbcddd0cf9619f1</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-08 18:24:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d2525c0bdb9172000dbcddd0cf9619b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Default POST</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_94722_marketing">47c86d00db1132000dbcddd0cf96196e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">47c86d00db1132000dbcddd0cf96196e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_d2525c0bdb9172000dbcddd0cf9619b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 17:56:06</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

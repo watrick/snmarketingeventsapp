@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["16cdda1bdb5d72000dbcddd0cf9619a7"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>96cd1a1bdb5d72000dbcddd0cf961987,4add9a1bdb5d72000dbcddd0cf9619b2,dacd1a1bdb5d72000dbcddd0cf961988,16cdda1bdb5d72000dbcddd0cf9619a7</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>96cd1a1bdb5d72000dbcddd0cf961987,4add9a1bdb5d72000dbcddd0cf9619b2,dacd1a1bdb5d72000dbcddd0cf961988,16cdda1bdb5d72000dbcddd0cf9619a7</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Calculate</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">96cd1a1bdb5d72000dbcddd0cf961987</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>9acd1a1bdb5d72000dbcddd0cf961985</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:14:41</sys_updated_on>
+        <table>x_94722_marketing_trips</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Calculate">0ea45617db5d72000dbcddd0cf961937</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Calculate</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 22:30:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ea45617db5d72000dbcddd0cf961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Application" source="x_94722_marketing">47c86d00db1132000dbcddd0cf96196e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">47c86d00db1132000dbcddd0cf96196e</sys_scope>
+        <sys_update_name>wf_workflow_0ea45617db5d72000dbcddd0cf961937</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 22:30:56</sys_updated_on>
+        <table>x_94722_marketing_trips</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>96cd1a1bdb5d72000dbcddd0cf961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:10:48</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Calculate">9acd1a1bdb5d72000dbcddd0cf961985</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=96cd1a1bdb5d72000dbcddd0cf961987"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">96cd1a1bdb5d72000dbcddd0cf961987</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>52cd1a1bdb5d72000dbcddd0cf961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:10:48</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>16cdda1bdb5d72000dbcddd0cf9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:10:48</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Calculate">9acd1a1bdb5d72000dbcddd0cf961985</workflow_version>
+        <x>660</x>
+        <y>301</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=16cdda1bdb5d72000dbcddd0cf9619a7"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Google Map get duration and distance">d96a5e97db5d72000dbcddd0cf9619e2</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{"origin":"${current.origin}","units":"${current.units}","duration":"${current.duration}","distance":"${current.distance}","destination":"${current.destination}"}</input>
+        <is_parent>false</is_parent>
+        <name>Trip calculator</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:12:17</sys_created_on>
+        <sys_id>4add9a1bdb5d72000dbcddd0cf9619b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:13:26</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Calculate">9acd1a1bdb5d72000dbcddd0cf961985</workflow_version>
+        <x>229</x>
+        <y>14</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4add9a1bdb5d72000dbcddd0cf9619b2"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Trip calculator">4add9a1bdb5d72000dbcddd0cf9619b2</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:12:17</sys_created_on>
+        <sys_id>b71e961bdb5d72000dbcddd0cf9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:12:17</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Trip outputs</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>dacd1a1bdb5d72000dbcddd0cf961988</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:13:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Calculate">9acd1a1bdb5d72000dbcddd0cf961985</workflow_version>
+        <x>338</x>
+        <y>243</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=dacd1a1bdb5d72000dbcddd0cf961988"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dacd1a1bdb5d72000dbcddd0cf961988</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>decd1a1bdb5d72000dbcddd0cf961988</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:13:15</sys_updated_on>
+        <value>distance=${data.get(5).distance}^duration=${data.get(5).duration}^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dacd1a1bdb5d72000dbcddd0cf961988</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>decd1a1bdb5d72000dbcddd0cf961988</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:13:15</sys_updated_on>
+        <value>distance=${data.get(5).distance}^duration=${data.get(5).duration}^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Trip outputs">dacd1a1bdb5d72000dbcddd0cf961988</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>1ecd1a1bdb5d72000dbcddd0cf961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:10:48</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1ecd1a1bdb5d72000dbcddd0cf961989</condition>
+        <from display_value="Trip outputs">dacd1a1bdb5d72000dbcddd0cf961988</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>1ecdda1bdb5d72000dbcddd0cf9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:10:48</sys_updated_on>
+        <to display_value="End">16cdda1bdb5d72000dbcddd0cf9619a7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">52cd1a1bdb5d72000dbcddd0cf961988</condition>
+        <from display_value="Begin">96cd1a1bdb5d72000dbcddd0cf961987</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:13:21</sys_created_on>
+        <sys_id>5f5e1a1bdb5d72000dbcddd0cf9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:13:21</sys_updated_on>
+        <to display_value="Trip calculator">4add9a1bdb5d72000dbcddd0cf9619b2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">b71e961bdb5d72000dbcddd0cf9619ac</condition>
+        <from display_value="Trip calculator">4add9a1bdb5d72000dbcddd0cf9619b2</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:13:24</sys_created_on>
+        <sys_id>c06ede1bdb5d72000dbcddd0cf961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:13:24</sys_updated_on>
+        <to display_value="Trip outputs">dacd1a1bdb5d72000dbcddd0cf961988</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 23:10:48</sys_created_on>
+        <sys_id>5ecd1a1bdb5d72000dbcddd0cf961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 23:10:48</sys_updated_on>
+        <workflow_version display_value="Calculate">9acd1a1bdb5d72000dbcddd0cf961985</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=0ea45617db5d72000dbcddd0cf961937^sys_id!=9acd1a1bdb5d72000dbcddd0cf961985">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

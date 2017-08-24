@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list>alpha.beta@example.com</address_list>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of Marketing Events Budget by City</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Marketing Events Budget by City">31c53c78db5132000dbcddd0cf961916</report>
+        <report_body><![CDATA[<p>See Image</p>]]></report_body>
+        <report_title>Budget Report</report_title>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>2</run_dayofweek>
+        <run_period/>
+        <run_start>2017-03-01 21:18:45</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-01 21:20:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7e67bc3cdb5132000dbcddd0cf96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scheduled Execution of Marketing Events Budget by City</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_94722_marketing">47c86d00db1132000dbcddd0cf96196e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">47c86d00db1132000dbcddd0cf96196e</sys_scope>
+        <sys_update_name>sysauto_report_7e67bc3cdb5132000dbcddd0cf96193a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-01 21:20:59</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>6816f79cc0a8016401c5a33be04be441</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

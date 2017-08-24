@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Trips" max_length="40" name="x_94722_marketing_trips" type="collection">
+        <element label="Destination" mandatory="true" max_length="40" name="destination" type="string"/>
+        <element label="Distance" max_length="40" name="distance" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Duration" max_length="40" name="duration" read_only="true" type="string"/>
+        <element label="Origin" mandatory="true" max_length="40" name="origin" type="string"/>
+        <element choice="1" label="Units" max_length="40" name="units" type="choice">
+            <choice>
+                <element label="Imperial" sequence="0" value="Imperial"/>
+                <element label="Metric" sequence="1" value="Metric"/>
+            </choice>
+        </element>
+    </element>
+</database>

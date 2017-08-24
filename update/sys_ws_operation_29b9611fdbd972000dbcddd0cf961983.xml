@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>getAttendance</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) { 
+                      //Get Sys ID from URL parameter 
+                            var sys_id = request.pathParams.id; 
+                      //Look up marketing event name from Sys ID 
+                            var gr = new GlideRecord('x_94722_marketing_marketing_event'); 
+                            if (gr.get(sys_id) ) { 
+                              var eventName = gr.name.toString();
+
+                       //Check ACLs before querying 
+                            if(gr.canRead()) { 
+                                var numberOfAttendees = 0; 
+                                var attendees = new GlideAggregate('x_94722_marketing_attendee'); 
+                                attendees.addQuery('marketing_event', sys_id); 
+                                attendees.addAggregate('COUNT'); 
+                                attendees.query(); 
+                                if(attendees.next()) { 
+                                  numberOfAttendees = attendees.getAggregate('COUNT'); 
+                                } 
+                                return {'event' : eventName, 
+                                        'attendeeCount' : numberOfAttendees 
+                                        }; 
+                                } else { 
+                                    return 'Access denied' ; 
+                               } 
+                                } else { 
+                                    return 'No record found'; 
+    } })(request, response);]]></operation_script>
+        <operation_uri>/api/x_94722_marketing/event/getAttendance/{id}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/getAttendance/{id}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 19:28:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>29b9611fdbd972000dbcddd0cf961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getAttendance</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_94722_marketing">47c86d00db1132000dbcddd0cf96196e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">47c86d00db1132000dbcddd0cf96196e</sys_scope>
+        <sys_update_name>sys_ws_operation_29b9611fdbd972000dbcddd0cf961983</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 19:28:19</sys_updated_on>
+        <web_service_definition display_value="event">3589211fdbd972000dbcddd0cf96190a</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
